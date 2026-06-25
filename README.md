@@ -105,7 +105,7 @@ fun_fact: "I debug with print statements and I'm not ashamed 😄"
 ---
 
 <!-- Snake Animation -->
-## 🐍 **Watch the Snake Eat My Contributions!**
+## 🐍 **Contributions!**
 
 <div align="center">
 

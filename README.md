@@ -1,7 +1,7 @@
 <div align="center">
 
 
-##**Hey There👋! I'm Hitesh Yadav**
+**Hey There👋! I'm Hitesh Yadav**
 
 <br/>
 

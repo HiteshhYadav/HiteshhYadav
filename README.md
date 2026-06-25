@@ -117,19 +117,6 @@ fun_fact: "I debug with print statements and I'm not ashamed 😄"
 
 </div>
 
-
----
-
-
----
-
-<!-- Random Dev Quote -->
-## 💭 **Random Dev Quote**
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
-</div>
-
 ---
 
 <!-- Connect With Me -->

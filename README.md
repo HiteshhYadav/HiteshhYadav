@@ -117,16 +117,9 @@ fun_fact: "I debug with print statements and I'm not ashamed 😄"
 
 </div>
 
-> ⚠️ **Setup Required**: To enable the snake animation, create a GitHub Actions workflow. See the [setup instructions](#-how-to-set-up-the-snake-animation) below.
 
 ---
 
-<!-- Trophies -->
-## 🏆 **GitHub Trophies**
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=HiteshhYadav&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies" />
-</div>
 
 ---
 
@@ -162,65 +155,3 @@ fun_fact: "I debug with print statements and I'm not ashamed 😄"
 
 ---
 
-<!-- Snake Animation Setup -->
-## 🔧 **How to Set Up the Snake Animation**
-
-To get the snake eating your contribution graph, follow these steps:
-
-### 1️⃣ Create a repository with your username
-Create a repo called `HiteshhYadav` (same as your GitHub username) if you haven't already.
-
-### 2️⃣ Add the GitHub Actions workflow
-Create the file `.github/workflows/snake.yml` in that repo with this content:
-
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight UTC
-  workflow_dispatch:       # Allows manual trigger
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate Snake Game
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: HiteshhYadav
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-### 3️⃣ Run the workflow
-- Go to **Actions** tab → Select **"Generate Snake Animation"** → Click **"Run workflow"**
-- The snake SVGs will be pushed to the `output` branch automatically
-
-### 4️⃣ Done! 🎉
-The snake animation will update daily and appear on your profile!
-
----
-
-<div align="center">
-
-### 💜 Thanks for visiting! Drop a ⭐ if you like my work!
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=100&section=footer" width="100%" />
-
-</div>
-
-<!-- <img align="right" alt="coding" width="400" src="https://gifdb.com/images/high/animated-man-computer-coding-nae6mec378lsg1i3.gif">
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=hiteshhyadav&label=Profile%20views&color=0e75b6&style=flat" alt="hiteshhyadav" /> </p>
-
- -->

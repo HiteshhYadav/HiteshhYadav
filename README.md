@@ -1,7 +1,8 @@
 <div align="center">
 
-<!-- Dynamic Typing SVG -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=%F0%9F%91%8B+Hey+there%2C+I'm+Hitesh+Yadav;%F0%9F%8E%93+CSE+Student+%40+Thapar+University;%F0%9F%9A%80+Building+cool+stuff+with+code)](https://git.io/typing-svg)
+<p>
+  Hey There! I'm Hitesh Yadav
+</p>
 
 <br/>
 

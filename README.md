@@ -31,7 +31,7 @@ located_in: India
 education:
   university: Thapar Institute of Engineering & Technology
   degree: B.E. Computer Science & Engineering
-  year: 3rd Year
+  year: 4th Year
 
 currently:
   learning: [ "Machine Learning", "Deep Learning", "Full-Stack Development" ]
